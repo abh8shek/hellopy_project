@@ -27,7 +27,7 @@ public class Main {
 			System.out.println("File not found.");
 			e.printStackTrace();
 		}
-		System.out.println(msgArr);
+		//System.out.println(msgArr);
 		int i1 = msgArr.indexOf("module");
 		String modName = msgArr.get(i1+1);
 		return modName;
@@ -49,4 +49,4 @@ public class Main {
 		}
 	}
 }
-// Commit 8
+// Commit 9
