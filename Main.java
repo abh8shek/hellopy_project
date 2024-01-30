@@ -36,24 +36,25 @@ public class Main {
 	public static void main(String[] args) {
 		String modName = getModuleName();
 		if (modName.contains("equity")) {
-			System.out.println("RUN EQUITY TEST SUITE");
+			System.out.println("RUN EQUITY TEST SUITE\n");
 			System.out.println("EQIUTY TEST 1\n");
 			System.out.println("EQUITY TEST 2\n");
 			System.out.println("EQUITY TEST 3\n");
 		}
 		else if (modName.contains("onboarding")) {
-			System.out.println("RUN ONBOARDING TEST SUITE");
+			System.out.println("RUN ONBOARDING TEST SUITE\n");
 			System.out.println("ONBOARDING TEST 1\n");
 			System.out.println("ONBOARDING TEST 2\n");
 			System.out.println("ONBOARDING TEST 3\n");
 		}
 		else if (modName.contains("mf") || modName.contains("mutual") || modName.contains("mutualfund")) {
+			System.out.println("RUN MUTUAL FUNDS TEST SUITE\n");
 			System.out.println("MUTUAL FUND TEST 1\n");
 			System.out.println("MUTUAL FUND TEST 2\n");
 			System.out.println("MUTUAL FUND TEST 3\n");
 		}
 		else if (modName.contains("charts")) {
-			System.out.println("RUN CHARTS TEST SUITE");
+			System.out.println("RUN CHARTS TEST SUITE\n");
 			System.out.println("MUTUAL FUND TEST 1\n");
 			System.out.println("MUTUAL FUND TEST 2\n");
 			System.out.println("MUTUAL FUND TEST 3\n");
