@@ -55,9 +55,9 @@ public class Main {
 		}
 		else if (modName.contains("charts")) {
 			System.out.println("RUN CHARTS TEST SUITE\n");
-			System.out.println("MUTUAL FUND TEST 1\n");
-			System.out.println("MUTUAL FUND TEST 2\n");
-			System.out.println("MUTUAL FUND TEST 3\n");
+			System.out.println("CHARTS TEST 1\n");
+			System.out.println("CHARTS TEST 2\n");
+			System.out.println("CHARTS TEST 3\n");
 		}
 	}
 }
